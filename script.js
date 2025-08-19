@@ -58,4 +58,13 @@ let numeros = [12, 5, 8, 21, 7, 45, 38, 19],
      console.log('o valor', alvo, 'aparece', contador, 'vezes na lista.');
 
      // 7. vamos agora inverter os valores de um vetor
-     
+     let lista = [ 1, 2, 3, 4, 5],
+        listaInvertida = [];
+        //interando  cada um dos elementos
+        for (let i = lista.length - 1; i >= 0; i--){
+            listaInvertida.push(lista[i]);
+        }
+        console.log('lsita original:', lista);
+        console.log('lsita invertida:', listaInvertida);
+
+        
