@@ -67,4 +67,15 @@ let numeros = [12, 5, 8, 21, 7, 45, 38, 19],
         console.log('lsita original:', lista);
         console.log('lsita invertida:', listaInvertida);
 
+        // 8. ordenaçao simples
+        let listaOrdenada= [5, 3, 8, 4, 2, 9, 1, 17, 6, 7];
+        for (let i = 0; i < listaOrdenada.length; i++){
+            for (let j = 0; j < listaOrdenada.length -1; j++){
+                let temp = listaOrdenada[j];
+                listaOrdenada[j] = listaOrdenada[j+1];
+                listaOrdenada[j + 1] = temp;
+            }
+        }
+console.log('Lista.ordenada:',listaOrdenada);
+
         
